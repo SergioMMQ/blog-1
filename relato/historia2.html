@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Blog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="blog-post">
+    <h1>Título del blog</h1>
+    <p>Este es el contenido de mi artículo. ¡Gracias por leer!</p>
+
+    <div class="comments">
+      <h3>Comentarios</h3>
+      <div id="comment-list"></div>
+
+      <form id="comment-form">
+        <input type="text" id="name" placeholder="Tu nombre" required />
+        <textarea id="message" placeholder="Tu comentario" required></textarea>
+        <button type="submit">Publicar</button>
+      </form>
+    </div>
+  </div>
+  
+  <script>
+    const pageId = 'historia2';
+  </script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
